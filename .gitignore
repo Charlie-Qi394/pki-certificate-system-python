@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# Generated private keys, certificates, encrypted CSRs, and CRLs.
+cert_store/*
+!cert_store/.gitkeep
